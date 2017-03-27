@@ -1,0 +1,5 @@
+name: GogsModified
+description: |
+    A copy of the gogs template from community-catalog, with modifications
+version: v0.0.1
+category: Git
