@@ -1,2 +1,2 @@
-# RancherCatalog
+# PhilsRancherCatalog
 Custom Rancher catalog
