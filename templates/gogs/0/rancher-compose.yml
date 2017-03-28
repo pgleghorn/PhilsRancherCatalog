@@ -1,16 +1,10 @@
 .catalog:
   name: "GogsModified"
-  version: "v0.0.1"
+  version: "v0.0.2"
   description: "A copy of the gogs template from community-catalog, with modifications"
   uuid: gogs-modified-0
   minimum_rancher_version: v0.51.0
   questions:
-    - variable: public_port
-      description: "public port to access the mysql server"
-      label: "Public Port"
-      required: true
-      default: "3306"
-      type: "int"
     - variable: http_port
       description: "http port to access gogs webui"
       label: "Http Port"
@@ -23,11 +17,11 @@
       required: true
       default: "222"
       type: "int"
-    - variable: mysql_password
-      description: "mysql root password"
-      label: "Mysql Password"
+    - variable: gogs_hostname
+      description: "gogs hostname"
+      label: "Gogs hostname"
       required: true
       default: ""
-      type: "password"
+      type: "string"
 
 gogs:
