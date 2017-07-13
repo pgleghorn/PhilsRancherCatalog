@@ -1,5 +1,5 @@
 name: GogsModified
 description: |
-    A copy of the gogs template from community-catalog, with modifications
-version: v0.0.3
-category: PhilsRancherCatalog-Git
+    A copy of the gogs template from https://github.com/rancher/community-catalog/tree/master/templates/gogs, with modifications
+version: v0.0.4
+category: Git
