@@ -1,6 +1,12 @@
-.catalog:
+version: '2'
+
+services:
+  gogsmodified:
+    scale: 1
+
+catalog:
   name: "GogsModified"
-  version: "v0.0.2"
+  version: "v0.0.3"
   description: "A copy of the gogs template from community-catalog, with modifications"
   uuid: gogs-modified-0
   minimum_rancher_version: v0.51.0
@@ -23,5 +29,3 @@
       required: true
       default: ""
       type: "string"
-
-gogs:

@@ -1,4 +1,6 @@
-gogsmodified:
+version: '2'
+services:
+  gogsmodified:
     image: gogs/gogs:latest
     ports:
         - ${http_port}:3000
